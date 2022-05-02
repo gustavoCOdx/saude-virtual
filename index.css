@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Mulish';
+}
+
+.cabecalho{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    padding: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #8f8a99;
+    font-size: 18PX;
+}
+
+.menu a.link-ativo{
+    color: #1f1534;
+    font-weight: bold;
+}
+
+.banner01-fundo{
+    background-image: url('imagem/pontinho1.jpg');
+    background-repeat: no-repeat;
+}
+
+.banner01-conteudo{
+    width: 1208px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner01-titulo{
+    font-size: 48px ;
+    font-weight: bold;
+}
+
+.banner01-paragrafo{
+    font-size: 21px;
+    font-weight: 200;
+    color: #7d7987;
+    line-height: 32px;
+    margin-bottom: 45px;
+}
+
+.botao01{
+    background-color: #458ff6;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+}
+
+.nossos-servicos{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.servicos-titulo{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 56px;
+}
+
+.divisor{
+    height: 2px;
+    width: 56px;
+    border: 0ch;
+    background-color: black;
+    margin-bottom: 33px;
+}
+
+.servicos-paragrafo{
+    font-size: 18px;
+    color: #7d7987;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.icones-servicos-fundo{
+    background-image: url(imagem/fundo-02.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.icones-servicos{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(imagem/pontinhos2.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 0 20px;
+}
+
+.icones-cartao{
+    width: 300px;
+    background-color: white;
+    box-shadow: 2px 6px 11px 0px rgba(0, 0, 0, 0,12);
+    padding: 30px;
+    height: 300px;
+}
